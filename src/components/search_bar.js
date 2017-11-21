@@ -8,9 +8,21 @@ import React, { Component } from 'react';
 
 //give our search bar a bunch of functionality inheriting from react.component by writing it this way:
 class SearchBar extends Component {
+    //defining state in a class based component
+    constructor(props) {
+        super(props);
+
+        this.state = { term: '' };
+    }
     //defining methods on a class:
     render() {
-        return <input />;
+        return (
+            <div>
+                <input 
+                value={this.state.term}
+                onChange={event => this.setState({ term: event.target.value })} />
+            </div>
+        );
     }
 }
 
