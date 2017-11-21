@@ -19,7 +19,7 @@ class App extends Component {
 
         this.state = { videos: [] };
 
-        YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => {
+        YTSearch({key: API_KEY, term: 'husky talking'}, (videos) => {
             this.setState({ videos });
             //this.setState({videos :videos }); sugar to clean up when the name and property are the same name 
         });
