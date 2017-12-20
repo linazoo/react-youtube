@@ -3,7 +3,6 @@ body {
     background: linear-gradient(to right, pink,peachpuff)
 }
 .search-bar input {
-    font-family: 'Playfair Display';
     margin: 40px;
     background: white;
     width: 75%;
@@ -13,6 +12,8 @@ body {
 
 .search-bar {
     text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .video-item img {
@@ -21,11 +22,12 @@ body {
 }
 
 .video-detail .details {
-    font-family: 'Playfair Display', 700i;
+    font-style: italic;
     margin-top: 10px;
     padding: 10px;
     border-radius: 4px;
 }
+
 
 .list-group-item {
     cursor: pointer;
