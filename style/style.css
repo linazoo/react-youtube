@@ -1,4 +1,8 @@
+body {
+    font-family: 'Rasa', serif;
+}
 .search-bar {
+    font-family: 'Shrikhand', cursive;
     margin: 20px;
     text-align: center;
 }
@@ -14,14 +18,15 @@
 .video-detail .details {
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 4px;
 }
 
 .list-group-item {
     cursor: pointer;
+    background-color: #e3ebf3;
+    border: white;
 }
 
 .list-group-item:hover {
-    background-color: #eee;
+    background-color: white;
 }
