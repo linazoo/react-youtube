@@ -1,27 +1,39 @@
-.search-bar {
-    margin: 20px;
-    text-align: center;
+body {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, pink,peachpuff)
+}
+.search-bar input {
+    margin: 40px;
+    background: white;
+    width: 75%;
+    border-radius: 4px;
+    margin-top: 20px;
 }
 
-.search-bar input {
-    width: 75%;
+.search-bar {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .video-item img {
     max-width: 64px;
+    align-content: center;
 }
 
 .video-detail .details {
+    font-style: italic;
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 4px;
 }
 
+
 .list-group-item {
     cursor: pointer;
+    border: white;
 }
 
 .list-group-item:hover {
-    background-color: #eee;
+    background-color: #FFF0D0;
 }
