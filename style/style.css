@@ -1,21 +1,27 @@
 body {
-    font-family: 'Rasa', serif;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, pink,peachpuff)
 }
-.search-bar {
-    font-family: 'Shrikhand', cursive;
-    margin: 20px;
-    text-align: center;
+.search-bar input {
+    font-family: 'Playfair Display';
+    margin: 40px;
+    background: white;
+    width: 75%;
+    border-radius: 4px;
+    margin-top: 20px;
 }
 
-.search-bar input {
-    width: 75%;
+.search-bar {
+    text-align: center;
 }
 
 .video-item img {
     max-width: 64px;
+    align-content: center;
 }
 
 .video-detail .details {
+    font-family: 'Playfair Display', 700i;
     margin-top: 10px;
     padding: 10px;
     border-radius: 4px;
@@ -23,10 +29,9 @@ body {
 
 .list-group-item {
     cursor: pointer;
-    background-color: #e3ebf3;
     border: white;
 }
 
 .list-group-item:hover {
-    background-color: white;
+    background-color: #FFF0D0;
 }
